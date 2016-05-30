@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F5DDC451BA7D3BEE3D3BE601EDC6FA /* Pods-NumberPad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05742E7003B73FFC2ADF1F6D7E958E0A /* Pods-NumberPad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		232F5D8E34DDBAE711A7F96889A5385B /* EUMShowTouchWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F45F9D3E52D6F9323AE835D33B37D3 /* EUMShowTouchWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40D5706723F8DAAE82C8CCFDB6148891 /* UITouch+EUMUITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9983DC4D423D5D5DBA8EBAE203B828 /* UITouch+EUMUITouch.m */; };
+		63C984D1781459940168B94859131EFD /* EUMTouchPointView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3701FFBD4583577D289924A7A0C56178 /* EUMTouchPointView-dummy.m */; };
+		6C9EE9CED8F46410A6CE611071EE443E /* EUMTouchPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6021B9B2A21F414ED594CE3EC55409D /* EUMTouchPointView.m */; };
+		7416D578CEBC70A02F7A7518365C1331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7A19780785FB2D3D4D974E9D4A67D60A /* EUMTouchPointView.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E1DCA47FAD90C4A07B51F57EC8C27C /* EUMTouchPointView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8307F0818D65A5692CE5ED96BC82B0C8 /* Pods-NumberPad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA23E616D21DB3D18A5A7FBAE8138B5 /* Pods-NumberPad-dummy.m */; };
+		938B99B7A7563AB11E8F020C36188E73 /* EUMTouchPointView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E0CA5E13A5442979B590E385F5A85F18 /* EUMTouchPointView.bundle */; };
+		9E39C31E9B437789218748ADDBE283EB /* EUMShowTouchWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7153F2BE864268D830F85DA0B3BFE496 /* EUMShowTouchWindow.m */; };
+		A0BF6A4C8BB254F4CE0352C82D4E37DF /* UITouch+EUMUITouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 66632D54E47702A4362DE93236576071 /* UITouch+EUMUITouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B681CF594387770D0AD92F9BB6379BAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F008ADA94876ECE2C218DA419B41D8FF /* EUMTouchPointView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F782E9A8CA201EBD88D78126F73CE8 /* EUMTouchPointView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C08A00DAF2F0B476DE37327DE8F756A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC6858A2A9AA16200E79E72082C7DAF0;
+			remoteInfo = EUMTouchPointView;
+		};
+		5C629BCF127A2ED0E747EBE35D4862C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1483D90493F768249EAEFC19D3102FB;
+			remoteInfo = "EUMTouchPointView-EUMTouchPointView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05742E7003B73FFC2ADF1F6D7E958E0A /* Pods-NumberPad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NumberPad-umbrella.h"; sourceTree = "<group>"; };
+		1937978447B0143424AE6535B5BE2F72 /* EUMTouchPointView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EUMTouchPointView.xcconfig; sourceTree = "<group>"; };
+		2A9983DC4D423D5D5DBA8EBAE203B828 /* UITouch+EUMUITouch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITouch+EUMUITouch.m"; path = "Pod/Classes/UITouch+EUMUITouch.m"; sourceTree = "<group>"; };
+		2A9C38ABB3C9E52B7B297A3EBB545DE9 /* Pods_NumberPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumberPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D33DFCBC00C32478683641EE15F0F0 /* Pods-NumberPad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NumberPad.modulemap"; sourceTree = "<group>"; };
+		3701FFBD4583577D289924A7A0C56178 /* EUMTouchPointView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EUMTouchPointView-dummy.m"; sourceTree = "<group>"; };
+		3D5492DA0DBFE5BE2B2A421FF83F44E9 /* EUMTouchPointView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EUMTouchPointView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43325D2216C57DD0A90C164258E3E50D /* Pods-NumberPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumberPad.release.xcconfig"; sourceTree = "<group>"; };
+		5048A563C9AF5E6A28755A8125C78EDD /* Pods-NumberPad-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NumberPad-acknowledgements.plist"; sourceTree = "<group>"; };
+		60F782E9A8CA201EBD88D78126F73CE8 /* EUMTouchPointView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EUMTouchPointView-umbrella.h"; sourceTree = "<group>"; };
+		66632D54E47702A4362DE93236576071 /* UITouch+EUMUITouch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITouch+EUMUITouch.h"; path = "Pod/Classes/UITouch+EUMUITouch.h"; sourceTree = "<group>"; };
+		7153F2BE864268D830F85DA0B3BFE496 /* EUMShowTouchWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EUMShowTouchWindow.m; path = Pod/Classes/EUMShowTouchWindow.m; sourceTree = "<group>"; };
+		90F6588C472A8EB4E036A1D0350770DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938DE3CC1B092147A6C67042E0C1B2AF /* ResourceBundle-EUMTouchPointView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EUMTouchPointView-Info.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99F45F9D3E52D6F9323AE835D33B37D3 /* EUMShowTouchWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EUMShowTouchWindow.h; path = Pod/Classes/EUMShowTouchWindow.h; sourceTree = "<group>"; };
+		9FA23E616D21DB3D18A5A7FBAE8138B5 /* Pods-NumberPad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NumberPad-dummy.m"; sourceTree = "<group>"; };
+		A54C7134FB9D5534C29C11C452A6D1D8 /* Pods-NumberPad-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NumberPad-frameworks.sh"; sourceTree = "<group>"; };
+		BB613C30947C9B304084FD7D070736AC /* EUMTouchPointView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EUMTouchPointView.modulemap; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1DDB6DF6CB931825E30EDB2EBFF3F9B /* EUMTouchPointView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EUMTouchPointView-prefix.pch"; sourceTree = "<group>"; };
+		E0CA5E13A5442979B590E385F5A85F18 /* EUMTouchPointView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EUMTouchPointView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6021B9B2A21F414ED594CE3EC55409D /* EUMTouchPointView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EUMTouchPointView.m; path = Pod/Classes/EUMTouchPointView.m; sourceTree = "<group>"; };
+		E606E293E99EC4BF80F22C7A3903D7F3 /* Pods-NumberPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumberPad.debug.xcconfig"; sourceTree = "<group>"; };
+		E813E24E82770120E4F8604E1D564BF2 /* Pods-NumberPad-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NumberPad-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5C738637657DF1A05EDE5886FD0DA18 /* Pods-NumberPad-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NumberPad-resources.sh"; sourceTree = "<group>"; };
+		F6E1DCA47FAD90C4A07B51F57EC8C27C /* EUMTouchPointView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EUMTouchPointView.h; path = Pod/Classes/EUMTouchPointView.h; sourceTree = "<group>"; };
+		FE544EEC4D52C22A8F99AFBB72FBBACF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FBB9341A2F038C32A4426C94A1D0259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A0A263E3A6D2D7C14C98096EA8CCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B681CF594387770D0AD92F9BB6379BAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2D8095C9E5876DC1CDBCA71426ECAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7416D578CEBC70A02F7A7518365C1331 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4F1F032840638B986488E523802FD26B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7D4388BADAC0DBCD08DF90E8443B08D /* Pods-NumberPad */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7330089DC5711BD7B323BE587AD5AC52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80B5DD6231AE54BAEE95FD5DD90E78C9 /* EUMTouchPointView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7330089DC5711BD7B323BE587AD5AC52 /* Pods */,
+				B81C3A01CF1BF312BDD6B58EC68A52E0 /* Products */,
+				4F1F032840638B986488E523802FD26B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80B5DD6231AE54BAEE95FD5DD90E78C9 /* EUMTouchPointView */ = {
+			isa = PBXGroup;
+			children = (
+				99F45F9D3E52D6F9323AE835D33B37D3 /* EUMShowTouchWindow.h */,
+				7153F2BE864268D830F85DA0B3BFE496 /* EUMShowTouchWindow.m */,
+				F6E1DCA47FAD90C4A07B51F57EC8C27C /* EUMTouchPointView.h */,
+				E6021B9B2A21F414ED594CE3EC55409D /* EUMTouchPointView.m */,
+				66632D54E47702A4362DE93236576071 /* UITouch+EUMUITouch.h */,
+				2A9983DC4D423D5D5DBA8EBAE203B828 /* UITouch+EUMUITouch.m */,
+				BF31C7FD674922A89A096302E9A8991D /* Support Files */,
+			);
+			path = EUMTouchPointView;
+			sourceTree = "<group>";
+		};
+		B81C3A01CF1BF312BDD6B58EC68A52E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0CA5E13A5442979B590E385F5A85F18 /* EUMTouchPointView.bundle */,
+				3D5492DA0DBFE5BE2B2A421FF83F44E9 /* EUMTouchPointView.framework */,
+				2A9C38ABB3C9E52B7B297A3EBB545DE9 /* Pods_NumberPad.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF31C7FD674922A89A096302E9A8991D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB613C30947C9B304084FD7D070736AC /* EUMTouchPointView.modulemap */,
+				1937978447B0143424AE6535B5BE2F72 /* EUMTouchPointView.xcconfig */,
+				3701FFBD4583577D289924A7A0C56178 /* EUMTouchPointView-dummy.m */,
+				D1DDB6DF6CB931825E30EDB2EBFF3F9B /* EUMTouchPointView-prefix.pch */,
+				60F782E9A8CA201EBD88D78126F73CE8 /* EUMTouchPointView-umbrella.h */,
+				FE544EEC4D52C22A8F99AFBB72FBBACF /* Info.plist */,
+				938DE3CC1B092147A6C67042E0C1B2AF /* ResourceBundle-EUMTouchPointView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EUMTouchPointView";
+			sourceTree = "<group>";
+		};
+		E7D4388BADAC0DBCD08DF90E8443B08D /* Pods-NumberPad */ = {
+			isa = PBXGroup;
+			children = (
+				90F6588C472A8EB4E036A1D0350770DA /* Info.plist */,
+				35D33DFCBC00C32478683641EE15F0F0 /* Pods-NumberPad.modulemap */,
+				E813E24E82770120E4F8604E1D564BF2 /* Pods-NumberPad-acknowledgements.markdown */,
+				5048A563C9AF5E6A28755A8125C78EDD /* Pods-NumberPad-acknowledgements.plist */,
+				9FA23E616D21DB3D18A5A7FBAE8138B5 /* Pods-NumberPad-dummy.m */,
+				A54C7134FB9D5534C29C11C452A6D1D8 /* Pods-NumberPad-frameworks.sh */,
+				F5C738637657DF1A05EDE5886FD0DA18 /* Pods-NumberPad-resources.sh */,
+				05742E7003B73FFC2ADF1F6D7E958E0A /* Pods-NumberPad-umbrella.h */,
+				E606E293E99EC4BF80F22C7A3903D7F3 /* Pods-NumberPad.debug.xcconfig */,
+				43325D2216C57DD0A90C164258E3E50D /* Pods-NumberPad.release.xcconfig */,
+			);
+			name = "Pods-NumberPad";
+			path = "Target Support Files/Pods-NumberPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		622A6D413449AD5DDA534CB2516953D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F5DDC451BA7D3BEE3D3BE601EDC6FA /* Pods-NumberPad-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DA2477BB904013D09258965EDC368E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232F5D8E34DDBAE711A7F96889A5385B /* EUMShowTouchWindow.h in Headers */,
+				F008ADA94876ECE2C218DA419B41D8FF /* EUMTouchPointView-umbrella.h in Headers */,
+				7A19780785FB2D3D4D974E9D4A67D60A /* EUMTouchPointView.h in Headers */,
+				A0BF6A4C8BB254F4CE0352C82D4E37DF /* UITouch+EUMUITouch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B1483D90493F768249EAEFC19D3102FB /* EUMTouchPointView-EUMTouchPointView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7161CEDB30EA326603B7F96FBB557BF5 /* Build configuration list for PBXNativeTarget "EUMTouchPointView-EUMTouchPointView" */;
+			buildPhases = (
+				465C4A847EB148F302E58604C47EC03E /* Sources */,
+				5FBB9341A2F038C32A4426C94A1D0259 /* Frameworks */,
+				DD24483C400C6E98296B5DF20D972D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EUMTouchPointView-EUMTouchPointView";
+			productName = "EUMTouchPointView-EUMTouchPointView";
+			productReference = E0CA5E13A5442979B590E385F5A85F18 /* EUMTouchPointView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BC6858A2A9AA16200E79E72082C7DAF0 /* EUMTouchPointView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2A2400EA9E92515D4C7D076C3B4920 /* Build configuration list for PBXNativeTarget "EUMTouchPointView" */;
+			buildPhases = (
+				4E789CB070A2BB6B9AD2BE4E7DC075F2 /* Sources */,
+				94A0A263E3A6D2D7C14C98096EA8CCDD /* Frameworks */,
+				A1CC61DE43CC8C4581FD58B5B39E83E1 /* Resources */,
+				B1DA2477BB904013D09258965EDC368E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25FC489F28EE3E56C67CF08988984521 /* PBXTargetDependency */,
+			);
+			name = EUMTouchPointView;
+			productName = EUMTouchPointView;
+			productReference = 3D5492DA0DBFE5BE2B2A421FF83F44E9 /* EUMTouchPointView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D273BBE663AE26A38C2487CF711FEA5E /* Pods-NumberPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECA88EFACAEF0A2C4AB25504A4771F7 /* Build configuration list for PBXNativeTarget "Pods-NumberPad" */;
+			buildPhases = (
+				22BA625091EB8B4F86317D9905D2F1B0 /* Sources */,
+				CF2D8095C9E5876DC1CDBCA71426ECAA /* Frameworks */,
+				622A6D413449AD5DDA534CB2516953D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA81B419ABCEB7AD5F4A49857FE2DB5 /* PBXTargetDependency */,
+			);
+			name = "Pods-NumberPad";
+			productName = "Pods-NumberPad";
+			productReference = 2A9C38ABB3C9E52B7B297A3EBB545DE9 /* Pods_NumberPad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B81C3A01CF1BF312BDD6B58EC68A52E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC6858A2A9AA16200E79E72082C7DAF0 /* EUMTouchPointView */,
+				B1483D90493F768249EAEFC19D3102FB /* EUMTouchPointView-EUMTouchPointView */,
+				D273BBE663AE26A38C2487CF711FEA5E /* Pods-NumberPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1CC61DE43CC8C4581FD58B5B39E83E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938B99B7A7563AB11E8F020C36188E73 /* EUMTouchPointView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD24483C400C6E98296B5DF20D972D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22BA625091EB8B4F86317D9905D2F1B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8307F0818D65A5692CE5ED96BC82B0C8 /* Pods-NumberPad-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465C4A847EB148F302E58604C47EC03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E789CB070A2BB6B9AD2BE4E7DC075F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E39C31E9B437789218748ADDBE283EB /* EUMShowTouchWindow.m in Sources */,
+				63C984D1781459940168B94859131EFD /* EUMTouchPointView-dummy.m in Sources */,
+				6C9EE9CED8F46410A6CE611071EE443E /* EUMTouchPointView.m in Sources */,
+				40D5706723F8DAAE82C8CCFDB6148891 /* UITouch+EUMUITouch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25FC489F28EE3E56C67CF08988984521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EUMTouchPointView-EUMTouchPointView";
+			target = B1483D90493F768249EAEFC19D3102FB /* EUMTouchPointView-EUMTouchPointView */;
+			targetProxy = 5C629BCF127A2ED0E747EBE35D4862C3 /* PBXContainerItemProxy */;
+		};
+		DCA81B419ABCEB7AD5F4A49857FE2DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EUMTouchPointView;
+			target = BC6858A2A9AA16200E79E72082C7DAF0 /* EUMTouchPointView */;
+			targetProxy = 5C08A00DAF2F0B476DE37327DE8F756A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0820ADBE257E2991B7D3E09CEB4FFB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1937978447B0143424AE6535B5BE2F72 /* EUMTouchPointView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EUMTouchPointView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EUMTouchPointView/ResourceBundle-EUMTouchPointView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = EUMTouchPointView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		37023F58BF8FFBF2EA0224F70B61B981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1937978447B0143424AE6535B5BE2F72 /* EUMTouchPointView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EUMTouchPointView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EUMTouchPointView/ResourceBundle-EUMTouchPointView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = EUMTouchPointView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		92AEFD16E4CBE1650CC98B736CD83141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43325D2216C57DD0A90C164258E3E50D /* Pods-NumberPad.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NumberPad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NumberPad/Pods-NumberPad.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NumberPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A18B92B5B9516B199439E37CBF66E1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E606E293E99EC4BF80F22C7A3903D7F3 /* Pods-NumberPad.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NumberPad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NumberPad/Pods-NumberPad.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NumberPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C63575D312F877C632D9957199BFCD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1937978447B0143424AE6535B5BE2F72 /* EUMTouchPointView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EUMTouchPointView/EUMTouchPointView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EUMTouchPointView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EUMTouchPointView/EUMTouchPointView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EUMTouchPointView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA513B6558AF9807216EDC22F7623F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1937978447B0143424AE6535B5BE2F72 /* EUMTouchPointView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EUMTouchPointView/EUMTouchPointView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EUMTouchPointView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EUMTouchPointView/EUMTouchPointView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EUMTouchPointView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ECA88EFACAEF0A2C4AB25504A4771F7 /* Build configuration list for PBXNativeTarget "Pods-NumberPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18B92B5B9516B199439E37CBF66E1A4 /* Debug */,
+				92AEFD16E4CBE1650CC98B736CD83141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7161CEDB30EA326603B7F96FBB557BF5 /* Build configuration list for PBXNativeTarget "EUMTouchPointView-EUMTouchPointView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0820ADBE257E2991B7D3E09CEB4FFB4C /* Debug */,
+				37023F58BF8FFBF2EA0224F70B61B981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2A2400EA9E92515D4C7D076C3B4920 /* Build configuration list for PBXNativeTarget "EUMTouchPointView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA513B6558AF9807216EDC22F7623F01 /* Debug */,
+				C63575D312F877C632D9957199BFCD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

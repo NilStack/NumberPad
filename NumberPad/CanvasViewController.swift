@@ -1158,17 +1158,20 @@ class CanvasViewController: UIViewController, UIGestureRecognizerDelegate, Numbe
                         
                         let startPoint: CGPoint
                         let endPoint: CGPoint
+                        let arrowPosition: CGFloat
                         // If this contraintView was the informant, then the arrow goes from the constraint
                         // to the connector. Otherwise, it goes from the connector to the constraint
                         if lastInformant?.Informant == constraintView.constraint {
                             startPoint = constraintPoint
                             endPoint = labelPoint
+                            arrowPosition = 0.33
                         } else {
                             startPoint = labelPoint
                             endPoint = constraintPoint
+                            arrowPosition = 0.66
                         }
                         
-                        let connectionLayer = self.createConnectionLayer(startPoint, endPoint: endPoint, color: connectorPort.color, isDependent: dependent, drawArrow: lastInformant != nil)
+                        let connectionLayer = self.createConnectionLayer(startPoint, endPoint: endPoint, color: connectorPort.color, isDependent: dependent, drawArrow: lastInformant != nil, arrowPosition: arrowPosition)
                         
                         self.connectionLayers.append(connectionLayer)
                         connectionLayer.zPosition = self.connectionLayersZPosition
@@ -1444,14 +1447,14 @@ class CanvasViewController: UIViewController, UIGestureRecognizerDelegate, Numbe
         }
     }
     
-    func createConnectionLayer(startPoint: CGPoint, endPoint: CGPoint, color: UIColor?, isDependent: Bool, drawArrow: Bool) -> CAShapeLayer {
+    func createConnectionLayer(startPoint: CGPoint, endPoint: CGPoint, color: UIColor?, isDependent: Bool, drawArrow: Bool, arrowPosition: CGFloat = 0.5) -> CAShapeLayer {
         let dragLine = CAShapeLayer()
         dragLine.lineWidth = 3
         dragLine.fillColor = nil
         dragLine.lineCap = kCALineCapRound
         dragLine.strokeColor = color?.CGColor ?? UIColor.textColor().CGColor
         
-        dragLine.path = createPointingLine(startPoint, endPoint: endPoint, dash: isDependent, arrowHead: drawArrow)
+        dragLine.path = createPointingLine(startPoint, endPoint: endPoint, dash: isDependent, arrowHead: drawArrow, arrowPosition: arrowPosition)
         return dragLine
     }
     

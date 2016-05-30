@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E5802FEEA49F0C309FD870E /* Pods_NumberPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2F71B8B44B1D2279DFAEDD /* Pods_NumberPad.framework */; };
 		AE064B661A64605A00A10381 /* DigitRecognizerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5554C11A5CBBF7007DCF1D /* DigitRecognizerSDK.framework */; };
 		AE064B6B1A64679200A10381 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE064B6A1A64679200A10381 /* Constraints.swift */; };
 		AE064B6E1A646A6300A10381 /* ConstraintViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE064B6D1A646A6300A10381 /* ConstraintViews.swift */; };
@@ -152,6 +153,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C2F71B8B44B1D2279DFAEDD /* Pods_NumberPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumberPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		774BB180AF78789869B63518 /* Pods-NumberPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberPad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumberPad/Pods-NumberPad.debug.xcconfig"; sourceTree = "<group>"; };
+		8C8599D350452BCF0B945E3B /* Pods-NumberPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberPad.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumberPad/Pods-NumberPad.release.xcconfig"; sourceTree = "<group>"; };
 		AE04E7531A4DE6F40077D2E3 /* DTWDigitClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTWDigitClassifier.swift; sourceTree = "<group>"; };
 		AE064B6A1A64679200A10381 /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 		AE064B6D1A646A6300A10381 /* ConstraintViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViews.swift; sourceTree = "<group>"; };
@@ -291,6 +295,7 @@
 				AEA7F36C1A7DBFE0008A07E4 /* libc++.dylib in Frameworks */,
 				AE064B661A64605A00A10381 /* DigitRecognizerSDK.framework in Frameworks */,
 				AEA7F36A1A7DBF86008A07E4 /* FiftyThreeSdk.framework in Frameworks */,
+				7E5802FEEA49F0C309FD870E /* Pods_NumberPad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +309,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21FB1DF9065E8E80AF7CEBF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C2F71B8B44B1D2279DFAEDD /* Pods_NumberPad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A546018A3B924345921509B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				774BB180AF78789869B63518 /* Pods-NumberPad.debug.xcconfig */,
+				8C8599D350452BCF0B945E3B /* Pods-NumberPad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AE5554621A5CB9D3007DCF1D /* DigitRecognizer */ = {
 			isa = PBXGroup;
 			children = (
@@ -511,6 +533,8 @@
 				AE5554C21A5CBBF7007DCF1D /* DigitRecognizerSDK */,
 				AE5554D11A5CBBF7007DCF1D /* DigitRecognizerSDKTests */,
 				AEC9EEBB1A3CDC4A002C7B08 /* Products */,
+				2A546018A3B924345921509B /* Pods */,
+				21FB1DF9065E8E80AF7CEBF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -664,10 +688,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEC9EED91A3CDC4A002C7B08 /* Build configuration list for PBXNativeTarget "NumberPad" */;
 			buildPhases = (
+				E551193B81D82ED7FF533866 /* 📦 Check Pods Manifest.lock */,
 				AEC9EEB61A3CDC4A002C7B08 /* Sources */,
 				AEC9EEB71A3CDC4A002C7B08 /* Frameworks */,
 				AEC9EEB81A3CDC4A002C7B08 /* Resources */,
 				AE064B711A64C1AF00A10381 /* Embed Frameworks */,
+				1680D48C3C971D035079422C /* 📦 Embed Pods Frameworks */,
+				2E8529EBA52BBF01B1917053 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -805,6 +832,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1680D48C3C971D035079422C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumberPad/Pods-NumberPad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E8529EBA52BBF01B1917053 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumberPad/Pods-NumberPad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E551193B81D82ED7FF533866 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE55545D1A5CB9D3007DCF1D /* Sources */ = {
@@ -1140,6 +1215,7 @@
 		};
 		AEC9EEDA1A3CDC4A002C7B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774BB180AF78789869B63518 /* Pods-NumberPad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1161,6 +1237,7 @@
 		};
 		AEC9EEDB1A3CDC4A002C7B08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8599D350452BCF0B945E3B /* Pods-NumberPad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
