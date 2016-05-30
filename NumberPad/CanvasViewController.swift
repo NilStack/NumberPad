@@ -1037,7 +1037,7 @@ class CanvasViewController: UIViewController, UIGestureRecognizerDelegate, Numbe
                         if combinedLabels == "x" {
                             self.addConstraintView(newView, firstInputPort: inputs[0], secondInputPort: inputs[1], outputPort: outputs[0])
                         } else if combinedLabels == "/" {
-                            newView.showInverseOperator = true
+                            newView.showOperatorForOutput(inputs[0])
                             self.addConstraintView(newView, firstInputPort: outputs[0], secondInputPort: inputs[0], outputPort: inputs[1])
                         } else {
                             self.addConstraintView(newView, firstInputPort: nil, secondInputPort: nil, outputPort: nil)
@@ -1055,7 +1055,7 @@ class CanvasViewController: UIViewController, UIGestureRecognizerDelegate, Numbe
                             let inputs = newView.inputConnectorPorts()
                             self.addConstraintView(newView, firstInputPort: inputs[0], secondInputPort: inputs[1], outputPort: outputs[0])
                         } else if combinedLabels == "-" {
-                            newView.showInverseOperator = true
+                            newView.showOperatorForOutput(inputs[0])
                             self.addConstraintView(newView, firstInputPort: outputs[0], secondInputPort: inputs[0], outputPort: inputs[1])
                         } else {
                             self.addConstraintView(newView, firstInputPort: nil, secondInputPort: nil, outputPort: nil)
@@ -1309,21 +1309,13 @@ class CanvasViewController: UIViewController, UIGestureRecognizerDelegate, Numbe
             }
             
             constraintLoop: for constraintView in self.constraintViews {
-                if let constraintView = constraintView as? MultiInputOutputConstraintView {
-                    // Check to see if this constraint resolved one of its inputs or outputs and update it
-                    // accordingly
-                    let constraint = constraintView.innerConstraint
-                    for connector in constraint.inputs {
-                        if simulationContext.connectorValues[connector]?.Informant == constraint {
-                            constraintView.showInverseOperator = true
-                            continue constraintLoop
-                        }
-                    }
-                    for connector in constraint.outputs {
-                        if simulationContext.connectorValues[connector]?.Informant == constraint {
-                            constraintView.showInverseOperator = false
-                            continue constraintLoop
-                        }
+                let constraint = constraintView.constraint
+                for connectorPort in constraintView.connectorPorts() {
+                    let connector = connectorPort.connector
+                    if simulationContext.connectorValues[connector]?.Informant == constraint {
+                        // Show the label for which operator was used to calculate the result
+                        constraintView.showOperatorForOutput(connectorPort)
+                        continue constraintLoop
                     }
                 }
             }
